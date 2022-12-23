@@ -22,3 +22,30 @@
 @import "./contato/contato.css";
 
 @import "./termos/termos.css";
+
+.whats {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 3;
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 800px) {
+  .whats {
+    position: fixed;
+    z-index: 3;
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media (max-width: 600px) {
+  .whats {
+    position: fixed;
+    z-index: 3;
+    width: 75px;
+    height: 75px;
+  }
+}

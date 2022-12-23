@@ -65,7 +65,7 @@
       </section>
 
       <section class="contato-formulario" aria-label="Formulário">
-        <form class="form" action="./contato.html">
+        <form class="form" action="./enviardado.php" method="post">
           <div>
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" placeholder="Seu nome">
@@ -76,13 +76,13 @@
           </div>
           <div class="col-2">
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="seunome@gmail.com">
+            <input type="email" name="email" id="email" placeholder="seunome@gmail.com" required>
           </div>
           <div class="col-2">
             <label for="mensagem">Mensagem</label>
             <textarea rows="5" name="mensagem" id="mensagem" placeholder="O que você precisa?"></textarea>
           </div>
-          <button class="botao col-2">Enviar Mensagem</button>
+          <button type="submit" class="botao col-2">Enviar Mensagem</button>
         </form>
       </section>
 
@@ -128,7 +128,14 @@
     </div>
   </footer>
 
+  <div class="whats">
+    <a href="https://wa.me/5548988326135">
+      <img src="./img/whats.png" alt="Fale conosco">
+    </a>
+  </div>
+
   <script src="./js/script.js"></script>
+  <script src="./js/formulario.js"></script>
 </body>
 
 </html>
